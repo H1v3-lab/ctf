@@ -1,0 +1,36 @@
+{
+  "title": "Arène CTF · Dmod",
+  "categories": ["web", "crypto", "reverse", "forensique", "osint", "misc"],
+  "challenges": [
+    {
+      "id": "warmup",
+      "name": "Échauffement",
+      "category": "misc",
+      "difficulty": "facile",
+      "points": 50,
+      "author": "Dmod",
+      "description": "Premier contact avec l'Arène : le flag est dans le fichier fourni. Ça sert juste à prendre en main la soumission.",
+      "files": [{ "name": "README.txt", "path": "files/warmup/README.txt" }]
+    },
+    {
+      "id": "base-soup",
+      "name": "Soupe de bases",
+      "category": "crypto",
+      "difficulty": "facile",
+      "points": 100,
+      "author": "Dmod",
+      "description": "Un texte encodé plusieurs fois d'affilée. Épluche les couches dans le bon ordre pour retrouver le flag. base64 n'est pas du chiffrement.",
+      "files": [{ "name": "cipher.txt", "path": "files/base-soup/cipher.txt" }, { "name": "note.txt", "path": "files/base-soup/note.txt" }]
+    },
+    {
+      "id": "robots-redux",
+      "name": "Robots Redux",
+      "category": "web",
+      "difficulty": "facile",
+      "points": 100,
+      "author": "Dmod",
+      "description": "Un mini-site à inspecter localement. Les moteurs de recherche reçoivent des consignes… que les curieux lisent aussi. Télécharge le dossier et comporte-toi en robot.",
+      "files": [{ "name": "robots-redux (dossier)", "path": "files/robots-redux/README.txt" }]
+    }
+  ]
+}

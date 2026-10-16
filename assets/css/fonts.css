@@ -1,0 +1,5 @@
+/* Self-hosted fonts (SIL Open Font License, see assets/fonts/LICENSE-*.txt): no request to a third party */
+@font-face{font-family:"Inter Tight";font-style:normal;font-weight:100 900;font-display:swap;src:url(../fonts/inter-tight-latin-wght-normal.woff2) format("woff2-variations"),url(../fonts/inter-tight-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-style:italic;font-weight:100 900;font-display:swap;src:url(../fonts/inter-tight-latin-wght-italic.woff2) format("woff2-variations"),url(../fonts/inter-tight-latin-wght-italic.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/jetbrains-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:500 700;font-display:swap;src:url(../fonts/jetbrains-mono-latin-500-normal.woff2) format("woff2")}

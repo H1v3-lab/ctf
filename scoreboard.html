@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Classement — Arène CTF</title>
+<meta name="description" content="Classement de l'Arène CTF de Dmod.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f4f4f6'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' fill='%23050506'%3E0_0%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/arena.css">
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="index.html"><span class="logo">0_0</span><span class="bt"><b>Arène CTF</b><small>by Dmod</small></span></a>
+  <nav class="tnav">
+    <a href="index.html">Challenges</a>
+    <a href="scoreboard.html" class="on">Classement</a>
+    <a href="regles.html">Règles</a>
+    <a class="pf" href="https://sakoi-cyber.me">Portfolio ↗</a>
+  </nav>
+</header>
+<main>
+  <section class="hero small">
+    <div class="prompt"><i>&gt;_</i> cat scoreboard</div>
+    <h1><span class="br">&lt;</span> Classement <span class="br">/&gt;</span></h1>
+    <p class="lead">Le top des joueurs de l'Arène, par points puis par rapidité. Mise à jour en direct.</p>
+  </section>
+  <section class="sb-wrap">
+    <div class="sb-head"><span class="kicker" id="sb-count">—</span><button class="btn sm ghost" type="button" id="refresh">Rafraîchir</button></div>
+    <ol class="sb" id="sb"><li class="empty">Chargement…</li></ol>
+  </section>
+</main>
+<footer class="foot">
+  <span>© 2026 Dmod · Dominique-Savio SAKOI</span>
+  <span><a href="https://sakoi-cyber.me">sakoi-cyber.me</a> · <a href="index.html">Challenges</a></span>
+</footer>
+<script src="assets/js/scoreboard.js"></script>
+</body>
+</html>

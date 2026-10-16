@@ -1,0 +1,5 @@
+On m'a encodé plusieurs fois. À toi de me peler, couche après couche.
+I've been encoded several times. Peel me, layer by layer.
+
+Indice / hint : base64 n'est pas du chiffrement. Et parfois on inverse l'ordre.
+                base64 isn't encryption. And sometimes order gets reversed.

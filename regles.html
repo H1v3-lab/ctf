@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Règles — Arène CTF</title>
+<meta name="description" content="Les règles de l'Arène CTF de Dmod : comment jouer, ce qui est permis, ce qui ne l'est pas.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f4f4f6'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' fill='%23050506'%3E0_0%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/arena.css">
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="index.html"><span class="logo">0_0</span><span class="bt"><b>Arène CTF</b><small>by Dmod</small></span></a>
+  <nav class="tnav">
+    <a href="index.html">Challenges</a>
+    <a href="scoreboard.html">Classement</a>
+    <a href="regles.html" class="on">Règles</a>
+    <a class="pf" href="https://sakoi-cyber.me">Portfolio ↗</a>
+  </nav>
+</header>
+<main>
+  <section class="hero small">
+    <div class="prompt"><i>&gt;_</i> man arena</div>
+    <h1><span class="br">&lt;</span> Règles <span class="br">/&gt;</span></h1>
+  </section>
+  <section class="doc">
+    <h2>Le principe</h2>
+    <p>L'Arène est un CTF de type <b>jeopardy</b> : chaque challenge cache un <b>flag</b> au format <code>SAKOI{...}</code>. Tu télécharges les fichiers, tu résous l'énigme, et tu soumets le flag. Chaque flag correct te rapporte des points et te fait monter au classement.</p>
+
+    <h2>Jouer</h2>
+    <ol>
+      <li>Choisis un <b>pseudo</b> sur la page Challenges. Pas de mot de passe, pas d'e-mail : ton identité tient dans un jeton gardé par ton navigateur.</li>
+      <li>Ouvre un challenge, télécharge ses fichiers, résous-le avec tes outils.</li>
+      <li>Soumets le flag. S'il est correct, les points s'ajoutent.</li>
+    </ol>
+    <p class="note">Les challenges web sont fournis sous forme de dossier à lancer <b>en local</b> (par exemple avec Docker) : rien de vulnérable n'est exposé sur Internet. Tout se résout sur ta machine.</p>
+
+    <h2>Ce qui est permis</h2>
+    <ul>
+      <li>Tous les outils et toutes les techniques <b>sur les fichiers du challenge</b>, sur ta propre machine.</li>
+      <li>Travailler en équipe, partager des idées — mais pas les flags.</li>
+    </ul>
+
+    <h2>Ce qui est interdit</h2>
+    <ul>
+      <li>Attaquer l'infrastructure de l'Arène (ce site, l'API, Cloudflare, GitHub) ou le domaine <code>sakoi-cyber.me</code>. Les challenges sont <b>dans les fichiers</b>, pas sur le serveur.</li>
+      <li>Le brute-force de l'API de soumission (le nombre d'essais est limité).</li>
+      <li>Publier les flags ou des writeups complets tant qu'un challenge est actif.</li>
+    </ul>
+
+    <h2>Vie privée</h2>
+    <p>L'Arène ne stocke que ton <b>pseudo</b>, tes <b>résolutions</b> et ton <b>score</b>. <b>Aucune adresse IP, aucun cookie, aucun pistage.</b> Le code du site et de l'API est <a href="https://github.com/H1v3-lab">ouvert</a>.</p>
+
+    <h2>Une faille dans l'Arène ?</h2>
+    <p>Si tu trouves une vraie faille dans la plateforme elle-même (pas dans un challenge), c'est un bonus : écris-moi à <a href="mailto:security@sakoi-cyber.me">security@sakoi-cyber.me</a>, voir la <a href="https://sakoi-cyber.me/securite.html">politique de divulgation</a>.</p>
+
+    <p class="back"><a href="index.html">← Retour aux challenges</a></p>
+  </section>
+</main>
+<footer class="foot">
+  <span>© 2026 Dmod · Dominique-Savio SAKOI</span>
+  <span><a href="https://sakoi-cyber.me">sakoi-cyber.me</a> · <a href="index.html">Challenges</a></span>
+</footer>
+</body>
+</html>
